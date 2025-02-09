@@ -5,7 +5,7 @@
 // Definição da estrutura da carta
 typedef struct {
     char estado[3]; // Sigla do estado (ex: A, B....)
-    char codigocarta[64]; // Código da carta (ex: A01, B03)
+    char codigocarta[65]; // Código da carta (ex: A01, B03)
     char nomecidade[50]; // Nome da cidade (ex: Sao Paulo, Rio de Janeiro)
     int populacao; // População da cidade
     float area; // Área da cidade em km²
