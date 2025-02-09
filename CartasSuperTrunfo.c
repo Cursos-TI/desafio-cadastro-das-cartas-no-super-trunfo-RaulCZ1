@@ -61,7 +61,7 @@ void imprimirCarta(Carta *carta) {
 
 int main() {
     // Cria um array para armazenar várias cartas
-    int numCartas = 3; // Número de cartas que você quer criar
+    int numCartas = 64; // Número de cartas que você quer criar
     Carta *baralho[numCartas];
 
     // Cria as cartas e armazena no array
