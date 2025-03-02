@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+//Projeto Super Trunfo
+//Desafio Nível Novato 1
+//Programador : Raul Cruz
+//Neste Desafio vamos criar as variáveis, ler os dados de duas cartas e exibir os dados de ambas forma clara e organizada
 int main() {
     // Dados da Carta 1
     char estado1;            // Sigla do estado (ex: de 'A' a 'H'.)
@@ -72,11 +75,6 @@ int main() {
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosturisticos2);
-
-    return 0;
-}
-
-
 
     return 0;
 }
